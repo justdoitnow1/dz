@@ -1,4 +1,4 @@
-result = input('Введите число')
+result = input('Введите число:')
 a = result + result + result
 b = result + result
 c = result
