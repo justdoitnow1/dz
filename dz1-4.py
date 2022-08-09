@@ -1,7 +1,7 @@
 result = int(input('Введите целое, положительное число:'))
 num = result
 max = 0
-while num // 10 > 0:
+while num > 0:
     empnum = num % 10 #Отделили последнюю цифру
     if max < empnum:
         max = empnum
