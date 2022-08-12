@@ -4,15 +4,16 @@
   Осуществить вывод данных о пользователе одной строкой."""
 
 name = input('Введите имя пользователя:')
-surname = input('Введите фамилию пользователя')
-year = input('Введите год рождения')
-city = input('Введите город проживания')
-email = input('Введите email')
-tel = input('Введите телефон')
+surname = input('Введите фамилию пользователя:')
+year = input('Введите год рождения:')
+city = input('Введите город проживания:')
+email = input('Введите email:')
+tel = input('Введите телефон:')
 
 
 def foo_str(**kwargs):
-    return f'{name} {surname} {year} {city} {email} {tel}'
+    return f'Имя {name} Фамилия {surname} Год рождения {year}' \
+           f' Город {city} email {email} Телефон {tel}'
 
 
 print(foo_str(name=name, surname=surname, year=year, city=city, email=email))
