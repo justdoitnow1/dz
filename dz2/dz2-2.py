@@ -20,7 +20,6 @@ for i in range(len(slice_a)):
     a.append(slice_a[i])
 
 if last:
-    print (last)
     a.append(last)
 
 print(a)
