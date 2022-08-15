@@ -5,7 +5,9 @@ print('Введите числа, которые необходимо разде
 a = float(input('Введите число 1:'))
 b = float(input('Ввдеите число 2:'))
 
+
 def foo(*args):
     return a / b if b != 0 else "Ошибка! На ноль делить нельзя!"
+
 
 print(foo(a, b))
