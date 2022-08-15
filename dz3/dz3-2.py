@@ -12,8 +12,8 @@ tel = input('Введите телефон:')
 
 
 def foo_str(**kwargs):
-    return f'Имя {name} Фамилия {surname} Год рождения {year}' \
-           f' Город {city} email {email} Телефон {tel}'
+    return f"Имя {kwargs['name']} Фамилия {kwargs['surname']} Год рождения {kwargs['year']}" \
+           f" Город {kwargs['city']} email {kwargs['email']} Телефон {kwargs['tel']}"
 
 
-print(foo_str(name=name, surname=surname, year=year, city=city, email=email))
+print(foo_str(name=name, surname=surname, year=year, city=city, email=email, tel=tel))

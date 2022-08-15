@@ -28,4 +28,3 @@ instr = input('Введите строку из маленьких латинс�
 
 print(' '.join(list(map(int_fync, instr)))) if check_latin_lower(instr) is True else print(
     f'Ваш ввод: {" ".join(instr)}')
-
