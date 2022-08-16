@@ -3,11 +3,11 @@
 
 print('Введите числа, которые необходимо разделить')
 a = float(input('Введите число 1:'))
-b = float(input('Ввдеите число 2:'))
+b = float(input('Введите число 2:'))
 
 
-def foo(*args):
-    return a / b if b != 0 else "Ошибка! На ноль делить нельзя!"
+def foo(x, y):
+    return x / y if y != 0 else "Ошибка! На ноль делить нельзя!"
 
 
 print(foo(a, b))
