@@ -21,4 +21,4 @@ for i in count(3):
         break
     b.append(i)
 
-#print(b)
+# print(b)
